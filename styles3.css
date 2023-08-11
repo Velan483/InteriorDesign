@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #353232;
+    color: #fff;
+    padding: 10px;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding:10px;
+}
+li{
+    padding-right: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #f00;
+}
+
+#bg {
+    background-image: url('https://img.freepik.com/free-photo/gray-sofa-white-living-room-interior-with-copy-space-3d-rendering_43614-802.jpg?w=826&t=st=1691302714~exp=1691303314~hmac=4e9ba6b8d65e8a16a52fcbd3595ee7c991d5cb6a79ad38ae3b1a67e536a859cb');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.services {
+    padding: 50px;
+}
+
+.gallery {
+    color:#f00;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-content h2 {
+    text-align: center;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
